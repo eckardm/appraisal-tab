@@ -6,7 +6,7 @@ import json
 import os
 import sys
 
-FILES = ['pii', 'ccn']
+FILES = ['pii', 'ccn', 'find']
 HEADERS = ['offset', 'content', 'context']
 
 
