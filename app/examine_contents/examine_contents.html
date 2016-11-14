@@ -5,6 +5,9 @@
   <li ng-class="{ active: vm.type === 'ccn' }">
     <a href="#{{ vm.$routeSegment.getSegmentUrl('examine_contents', {type: 'ccn'}) }}">Credit card numbers</a>
   </li>
+  <li ng-class="{ active: vm.type === 'find' }">
+    <a href="#{{ vm.$routeSegment.getSegmentUrl('examine_contents', {type: 'find'}) }}">Find list</a>
+  </li>
 </ul>
 
 <div ng-if='vm.type'>
